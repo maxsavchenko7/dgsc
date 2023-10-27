@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="body-wrapper">
+
+        <div class="page-top">
+            <header class="header">
+                <div class="container">
+                    <div class="header__wrapper">
+                        <button class="burger">
+                            <svg><use xlink:href="assets/images/sprite.svg#burger"></use></svg>
+                        </button>
+                        <a class="logo" href="/">
+                            <img src="assets/images/logo.png" alt="logo">
+                            <span>Центр Поддержки<br> Цифрового Правительства</span>
+                        </a>
+                        <a class="view" href="#">
+                            <svg><use xlink:href="assets/images/sprite.svg#eye"></use></svg>
+                        </a>
+                        <div class="lang-switcher">
+                            <a class="active" href="#">KZ</a>
+                            <a href="#">RU</a>
+                            <a href="#">EN</a>
+                        </div>
+                        <form class="search-form">
+                            <input class="search-form__input" type="text" name="search" placeholder="Введите для поиска">
+                            <button class="search-form__submit" type="submit">
+                                <svg><use xlink:href="assets/images/sprite.svg#search"></use></svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </header>
+
+            <nav id="menu" class="menu">
+                <div class="menu__block">
+                    <div class="menu__header">
+                        <div class="lang-switcher">
+                            <a class="active" href="#">KZ</a>
+                            <a href="#">RU</a>
+                            <a href="#">EN</a>
+                        </div>
+                        <button class="menu__close">
+                            <svg><use xlink:href="assets/images/sprite.svg#cross"></use></svg>
+                        </button>
+                    </div>
+                    <ul class="menu__list">
+                        <li>
+                            <a href="#" title="Главная">Главная</a>
+                        </li>
+                        <li class="menu__has-sublist">
+                            <a class="menu__sublist-btn" href="#" title="О Центре">
+                                О Центре
+                                <svg><use xlink:href="assets/images/sprite.svg#menu-arrow"></use></svg>
+                            </a>
+                            <ul class="menu__sublist">
+                                <li>
+                                    <a href="#" title="История">История</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Структура">Структура</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Руководство">Руководство</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Устав">Устав</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Противодействие коррупции">Противодействие коррупции</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Вакансии">Вакансии</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__has-sublist">
+                            <a class="menu__sublist-btn" href="#" title="Деятельность">
+                                Деятельность
+                                <svg><use xlink:href="assets/images/sprite.svg#menu-arrow"></use></svg>
+                            </a>
+                            <ul class="menu__sublist">
+                                <li>
+                                    <a href="#" title="Центр цифровой трансформации">Центр цифровой трансформации</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Единый Ситуационный центр">Единый Ситуационный центр</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Центр мониторинга и управления проектами">Центр мониторинга и управления проектами</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Центр экспертизы">Центр экспертизы</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Центр архитектуры электронного правительства">Центр архитектуры электронного правительства</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="Конкурсы">Конкурсы</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Новости">Новости</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Курсы и тренинги">Курсы и тренинги</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Контакты">Контакты</a>
+                        </li>
+                    </ul>
+<!--                     
+                    <form class="search-form">
+                        <input class="search-form__input" type="text" name="search" placeholder="Поиск">
+                        <button class="search-form__submit" type="submit">
+                            <svg><use xlink:href="assets/images/sprite.svg#search"></use></svg>
+                        </button>
+                    </form>
+                     -->
+                    <div class="menu__phone">
+                        <a class="call-btn" href="tel:+77172790505">
+                            <svg><use xlink:href="assets/images/sprite.svg#phone-call"></use></svg>
+                        </a>
+                        <p>
+                            <span>+7 (7172) 79 05 05</span><br>
+                            Контактный телефон
+                        </p>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__wrapper">
+                        <div class="hero__top">
+                            <div class="hero__content">
+                                <h1 class="hero__title">
+                                    <p class="text-bg">DGSC</p>
+                                    <p class="text-big">Мы<br><span>строим</span></p>
+                                    <p class="hero__title-text">Цифровое<br>Клиентоориентированное<br>Государство</p>
+                                </h1>
+                                <a class="hero__btn" href="#">О Центре</a>
+                            </div>
+                            <div class="hero__img">
+                                <img src="assets/images/hero-img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="hero__bottom">
+                            <div class="hero__contacts">
+                                <h2 class="contacts__title">КОНТАКТЫ</h2>
+                                <a class="hero__contacts-phone" href="tel:+77172790505">
+                                    <svg><use xlink:href="assets/images/sprite.svg#phone"></use></svg>
+                                    +7 (7172) 79 05 05
+                                </a>
+                                <div class="social-media">
+                                    <a href="">
+                                        <svg><use xlink:href="assets/images/sprite.svg#instagram"></use></svg>
+                                    </a>
+                                    <a href="">
+                                        <svg><use xlink:href="assets/images/sprite.svg#youtube"></use></svg>
+                                    </a>
+                                    <a href="">
+                                        <svg><use xlink:href="assets/images/sprite.svg#facebook"></use></svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="hero__menu">
+                                <a href="#">THINK TANK</a>
+                                <a href="#">ЦИФРОВАЯ ТРАНСФОРМАЦИЯ</a>
+                                <a href="#">АРХИТЕКТУРА</a>
+                                <a href="#">ЭКСПЕРТИЗА</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <main class="content">
+
+            <section class="about-top">
+                <div class="container">
+                    <div class="about-top__wrapper with-bg">
+                        <div class="about-top__title">
+                            <p class="subtitle">О Центре</p>
+                            <h2 class="title">
+                                О СОЗДАНИИ ЦЕНТРА ПОДДЕРЖКИ <span>ЦИФРОВОГО ПРАВИТЕЛЬСТВА</span> 
+                            </h2>
+                        </div>
+                        <div class="about-top__content-wrapper">
+                            <div class="about-top__content">
+                                <div class="about-top__content-title">
+                                    <p class="subtitle">Дата создания</p>
+                                    <h3 class="title--smaller">4 февраля 2022</h3>
+                                    <p>по поручению Президента РК был создан РГП на ПХВ «Центр поддержки цифрового правительства»</p>
+                                </div>
+                                <div class="about-top__content-text">
+                                    <p>Центр выступает методологическим и координационным (think tank) ядром для поддержки процессов проектного управления, реинжиниринга бизнес-процессов государственных органов, экспертизы проектов нормативных правовых актов на предмет «цифровизации».</p>
+                                    <p>Центр образован в результате реорганизации «Института прикладной математики», который был создан Постановлением Кабинета Министров Казахской ССР № 564 от 26 сентября 1991 года, в Караганде на базе отдела прикладной математики Института математики и механики АН КазССР.</p>
+                                </div>
+                            </div>
+                            <div class="about-top__content">
+                                <div class="about-top__content-title">
+                                    <p class="subtitle">организатор</p>
+                                    <h3 class="title--smaller">М.О. Отелбаев</h3>
+                                    <p>он же первый директор Института прикладной математики, член - корреспондент Национальной академии наук РК, профессор</p>
+                                </div>
+                                <div class="about-top__content-text">
+                                    <p>В дальнейшем Институт возглавляли такие известные ученые математики, как профессора Т.Г. Мустафин, Х.Ж. Халманов, Е.С. Смаилов.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-bottom">
+                <div class="container">
+                    <div class="about-bottom__wrapper with-bg">
+                        <div class="about-bottom__title">
+                            <p class="subtitle">О Центре</p>
+                            <h2 class="title">
+                                За время своего существования Институт прикладной математики
+                                <span>испытал ряд трансформаций</span>
+                            </h2>
+                        </div>
+                        <div class="about-bottom__content-wrapper">
+                            <div class="about-bottom__content">
+                                <h2 class="content-title">
+                                    Назначение уполномоченным органом
+                                </h2>
+                                <p class="about-bottom__content-text">
+                                    Министерство цифрового развития, инноваций и аэрокосмической промышленности Республики Казахстан становится уполномоченным органом РГКП «Институт прикладной математики».
+                                </p>
+                                <p class="about-bottom__content-subtext">
+                                    Постановление Правительства РК от 15 ноября 2021 года № 815
+                                </p>
+                            </div>
+                            <div class="about-bottom__content">
+                                <h2 class="content-title">
+                                    Реорганизация
+                                </h2>
+                                <p class="about-bottom__content-text">
+                                    РГКП «Институт прикладной математики» Министерства цифрового развития, инноваций и аэрокосмической промышленности Республики Казахстан был реорганизован путем преобразования в РГП на ПХВ «Институт прикладной математики» Министерства цифрового развития, инноваций и аэрокосмической промышленности Республики Казахстан.
+                                </p>
+                                <p class="about-bottom__content-subtext">
+                                    Постановление Правительства РК от 15 ноября 2021 года № 815 
+                                </p>
+                            </div>
+                            <div class="about-bottom__content">
+                                <h2 class="content-title">
+                                    Переименование института
+                                </h2>
+                                <p class="about-bottom__content-text">
+                                    РГП на ПХВ «Институт прикладной математики» Министерства цифрового развития, инноваций и аэрокосмической промышленности РК был переименован в РГП на ПХВ «Центр поддержки цифрового правительства» Министерства цифрового развития, инноваций и аэрокосмической промышленности РК
+                                </p>
+                                <p class="about-bottom__content-subtext">
+                                    постановление Правительства РК от 4 февраля 2022 года № 51
+                                </p>
+                            </div>
+                            <div class="about-bottom__content">
+                                <h2 class="content-title">
+                                    определение поставщиком услуг
+                                </h2>
+                                <p class="about-bottom__content-text">
+                                    Центр определен поставщиком услуг по реинжинирингу бизнес-процессов (G2C, G2B, G2G) для реализации программ цифровой трансформации.
+                                </p>
+                                <p class="about-bottom__content-subtext"> Постановление Правительства от 24 марта 2022 года № 157</p>
+                            </div>
+                            <div class="about-bottom__content">
+                                <h2 class="content-title">
+                                    Определение сервисным интегратором
+                                </h2>
+                                <p class="about-bottom__content-text">
+                                    Центр определен “сервисным интегратором”.
+                                </p>
+                                <p class="about-bottom__content-subtext">
+                                    Постановление Правительства РК от 25 мая 2022 года № 337
+                                </p>
+                            </div>
+                            <div class="about-bottom__content">
+                                <h2 class="content-title">
+                                    новое назначение отвественности
+                                </h2>
+                                <p class="about-bottom__content-text">
+                                    Центр определен ответственным за организационное и методологическое сопровождение цифровой трансформации государственного управления
+                                </p>
+                                <p class="about-bottom__content-subtext">
+                                    Постановление Правительства РК от 29 сентября 2022 года № 765
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <a class="footer_logo" href="/">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </a>
+                    <div class="footer__nav">
+                        <a href="#">О Центре</a>
+                        <a href="#">Деятельность</a>
+                        <a href="#">Конкурсы</a>
+                        <a href="#">Новости</a>
+                    </div>
+                    <div class="footer__contacts">
+                        <div class="footer__contacts-item">
+                            <div class="footer__contacts-label">
+                                <svg><use xlink:href="assets/images/sprite.svg#mark"></use></svg>
+                                <span>Адрес:</span>
+                            </div>
+                            <div class="footer__contacts-text">
+                                <p>г. Астана, проспект<br>Мәңгілік Ел 55/5,здание С<br>2.4, 3 этаж</p>
+                            </div>
+                        </div>
+                        <div class="footer__contacts-item">
+                            <div class="footer__contacts-label">
+                                <svg><use xlink:href="assets/images/sprite.svg#notebook"></use></svg>
+                                <span>Контакты:</span>
+                            </div>
+                            <div class="footer__contacts-text">
+                                <a href="tel:+77172790505">+7 (7172) 79 05 05</a>
+                                <a href="mailto:info@govtec.kz">info@govtec.kz</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>Права защищены © 2023 Центр поддержки цифрового правительства. При поддержке EG-WEB</p>
+                        <div class="footer__social-media">
+                            <a href="#">
+                                <svg><use xlink:href="assets/images/sprite.svg#instagram"></use></svg>
+                            </a>
+                            <a href="#">
+                                <svg><use xlink:href="assets/images/sprite.svg#youtube"></use></svg>
+                            </a>
+                            <a href="#">
+                                <svg><use xlink:href="assets/images/sprite.svg#facebook"></use></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
