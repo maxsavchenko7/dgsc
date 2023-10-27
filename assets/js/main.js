@@ -15,4 +15,6 @@ jQuery(($) => {
 		}
 	});
 
+    console.log('test');
+
 });
